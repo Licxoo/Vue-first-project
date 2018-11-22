@@ -1,2 +1,2 @@
-# vue-first-project
+# vue-travel-project
 仿去哪儿网
