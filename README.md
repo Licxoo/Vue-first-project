@@ -102,6 +102,10 @@ config > index.js > proxyTable
       }
     },
 
+#滚动效果
+better-scroll
+
+npm install better-scroll --save
 ```
 
 For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
