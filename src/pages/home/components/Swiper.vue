@@ -28,6 +28,10 @@ export default {
         {
           id: '0002',
           imgUrl: 'http://img1.qunarzz.com/piao/fusion/1609/4d/3dc09bcc290f0c02.jpg_750x200_09c97d67.jpg'
+        },
+        {
+          id: '0003',
+          imgUrl: 'http://img1.qunarzz.com/piao/fusion/1712/51/36632b2cb850e902.jpg_750x200_fa4120db.jpg'
         }
       ]
     }
