@@ -80,6 +80,27 @@ webpack.base.conf.js
 <style lang="stylus" scoped>
   .wrapper >>> .swiper-pagination-bullet-active
     background-color #fff
+   
+#ajax请求  运用axios
+
+npm install axios --save
+
+把静态文件放到static目录下才可以直接访问
+.gitignore 不提交某些文件到仓库
+
+
+#当访问/api开头路径时，将/api 替换为/static/mock
+
+config > index.js > proxyTable
+
+    proxyTable: {
+      '/api': {
+        target: 'http://localhost:8080',
+        pathRewrite: {
+          '^/api': '/static/mock'
+        }
+      }
+    },
 
 ```
 
