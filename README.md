@@ -125,6 +125,14 @@ this.$router.push()
 #本地存储
 localStorage
 
+#将路由加载的内容进行缓存
+<keep-alive>
+	<router-view/>
+</keep-alive>
+
+会多一个生命周期函数
+activated
+
 ```
 
 For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
