@@ -106,6 +106,25 @@ config > index.js > proxyTable
 better-scroll
 
 npm install better-scroll --save
+
+使用better-scroll后 会阻止点击事件 
+this.scroll = new BScroll(this.$refs.wrapper,{click: true}) 
+{click: true}
+需要使click的值变为true
+
+#vuex
+npm install vuex --save
+
+#映射数据
+import { mapState, mapMutations } from 'vuex'
+
+#页面跳转
+
+this.$router.push()
+
+#本地存储
+localStorage
+
 ```
 
 For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
