@@ -127,9 +127,15 @@ localStorage
 
 #将路由加载的内容进行缓存
 <keep-alive>
-	<router-view/>
+  <router-view/>
 </keep-alive>
 
+
+ <keep-alive exclude="Detail">
+   <router-view/>
+ </keep-alive>
+ 
+ exclude排除不需要缓存的路由
 会多一个生命周期函数
 activated
 
@@ -138,6 +144,7 @@ activated
 deactivated
 
 #递归组件
+#滚动行为
 ```
 
 For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
