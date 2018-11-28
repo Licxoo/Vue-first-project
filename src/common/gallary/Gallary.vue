@@ -29,7 +29,7 @@ export default {
       swiperOption: {
         pagination: '.swiper-pagination',
         paginationType: 'fraction',
-        //解决宽度计算问题
+        // 解决宽度计算问题
         observeParents: true,
         observer: true
       }
