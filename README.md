@@ -133,6 +133,11 @@ localStorage
 会多一个生命周期函数
 activated
 
+
+#解绑全局事件
+deactivated
+
+#递归组件
 ```
 
 For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
