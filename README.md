@@ -136,6 +136,7 @@ localStorage
  </keep-alive>
  
  exclude排除不需要缓存的路由
+ （使Detail路由的景光详情无效了）
 会多一个生命周期函数
 activated
 
